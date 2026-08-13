@@ -22,7 +22,7 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v4
 
-      - name: Autenticación con Google Cloud
+      - name: Autenticación con Google Cloud (OIDC)
         uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
