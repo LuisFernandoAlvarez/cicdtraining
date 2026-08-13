@@ -19,7 +19,7 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout código
+      - name: Checkout asociado al código
         uses: actions/checkout@v4
 
       - name: Autenticar con Google Cloud
