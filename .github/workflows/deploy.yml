@@ -7,8 +7,10 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   REGION: us-central1
-  SERVICE_NAME: mi-app
-  IMAGE: us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/mi-app/mi-app
+  SERVICE_NAME: mi-app-demo
+  env:
+  env:
+  IMAGE: us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/mi-app-demo/mi-app
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true   
 
 jobs:
