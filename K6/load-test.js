@@ -25,7 +25,7 @@ export const options = {
   },
 };
 
-const BASE_URL = 'https://mi-app-demo-444431393501.us-central1.run.app';
+const BASE_URL = 'https://cicdtraining-312627313824.us-central1.run.app';
 
 // ─── ESCENARIO PRINCIPAL ───────────────────────────────────────────
 export default function () {
